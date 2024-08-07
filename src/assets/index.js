@@ -20,15 +20,31 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import mysql from "./tech/MySQL.png";
+import laravel from "./tech/laravel.png";
+import illustrator from './tech/illustrator.png';
+import bootstrap from './tech/bootstrap.png';
+import photoshop from './tech/photoshop.png';
+import firebase from './tech/firebase.png';
+import postgresql from './tech/postgresql.png';
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import itero from "./company/itero.png";
+import techb from './company/techb.png';
+import hyfe from './company/hyfe.png';
+import apperectors from './company/apperectors.png';
+import tcs from './company/tcs.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Marshmallow_mockup_v1 from './Marshmallow_mockup_v1.png'
+import drcarrot from './drcarrot.png';
 
 export {
   logo,
@@ -52,6 +68,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  mysql,
+  laravel,
+  illustrator,
+  bootstrap,
+  photoshop,
+  firebase,
+  postgresql,
   meta,
   shopify,
   starbucks,
@@ -59,4 +83,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  itero,
+  techb,
+  hyfe,
+  apperectors,
+  tcs,
+  Marshmallow_mockup_v1,
+  drcarrot
 };

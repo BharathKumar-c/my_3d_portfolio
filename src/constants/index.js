@@ -15,14 +15,28 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
     jobit,
     tripguide,
-    threejs,
+    mysql,
+    techb,
+    hyfe,
+    apperectors,
+    tcs,
+    Marshmallow_mockup_v1,
+    drcarrot,
+    // carrent,
+    // meta,
+    // starbucks,
+    // tesla,
+    // shopify,
+    // laravel,
+    // illustrator,
+    // bootstrap,
+    // photoshop,
+    // firebase,
+    // postgresql
+    // threejs,
+    // python,
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +68,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI Designer",
       icon: creator,
     },
   ];
@@ -97,10 +111,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -112,59 +122,85 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    // {
+    //   name: "postgresql",
+    //   icon: postgresql,
+    // },
+    // {
+    //   name: "laravel",
+    //   icon: laravel,
+    // },
+    // {
+    //   name: "firebase",
+    //   icon: firebase,
+    // },
+    // {
+    //   name: "bootstrap",
+    //   icon: bootstrap,
+    // },
+    // {
+    //   name: "photoshop",
+    //   icon: photoshop,
+    // },
+    // {
+    //   name: "illustrator",
+    //   icon: illustrator,
+    // },
   ];
-  
+
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Senior Full-Stack Developer",
+      company_name: "Techbumbles",
+      icon: techb,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Nov 2021 - Feb 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications & mobile app using React.js, React-native and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full-Stack Freelancer",
+      company_name: "HyFe Technologies",
+      icon: hyfe,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2019 - Oct 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js, Laravel and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    },  
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Web Application Freelancer",
+      company_name: "AppErectors",
+      icon: apperectors,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Dec 2016 - Jan 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web sites using laravel and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Deployment and maintaining the project",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Technical Suport",
+      company_name: "TCS",
+      icon: tcs,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Mar 2012 - Aug 2014",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Providing technical assistance and support for incoming queries and issues related to emergency alert systems, software",
+        "Responding to customer inquiries via email, chat, and documenting issues and resolutions",
+        "Troubleshooting and diagnosing technical problems, and guiding users through step-by-step solutions.",
+        "Installing, configuring, and maintaining emergency alert systems and applications",
       ],
     },
   ];
@@ -198,68 +234,87 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Marshmellow",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based and mobile-based platform that allows users to invest in mutual funds and withdraw their profits. We have developed an Online KYC system with onfido for the user verification process.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react-native",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "Pg-SQL",
+          color: "blue-text-gradient",
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Marshmallow_mockup_v1,
+      source_code_link: "https://github.com/BharathKumar-c/RN-MutualFundInvestmentAPP",
     },
     {
-      name: "Job IT",
+      name: "DrCarrot",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web-based and mobile-based platform thats for hospital management application, Develop Features are: Book Appointment, Billing, Stocks management, Online payment system, and etc",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "react-native",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "laravel",
+          color: "blue-text-gradient",
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: drcarrot,
+      source_code_link: "https://github.com/BharathKumar-c/drcarrot",
     },
     {
-      name: "Trip Guide",
+      name: "Horse Club",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A web-based platform that for horse club, Develop Features are: Membership Registration, Horse Registration, Online payment system, and etc",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "pg-sql",
+          color: "pink-text-gradient",
         },
         {
-          name: "css",
+          name: "node Js",
           color: "pink-text-gradient",
+        },
+        {
+          name: "express Js",
+          color: "blue-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/BharathKumar-c/HorseClubMembershipApp-USJA/tree/main",
+    },
+  ];
+
+  const introduction = [
+    {
+      Title:"Hi, I'm Bharath",
+      description: "I'm a full-stack developer",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, introduction };
